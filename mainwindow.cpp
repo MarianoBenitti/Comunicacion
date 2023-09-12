@@ -83,8 +83,5 @@ void MainWindow::on_SendButton_clicked()
         QSerialPort1->write(bufTx,ui->lineEdit->text().length());
     }
 
-
-
-
 }
 
